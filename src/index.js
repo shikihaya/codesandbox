@@ -1,3 +1,5 @@
+console.log("-----------------------------------------");
+
 /**
  * アロー関数
  */
@@ -105,12 +107,27 @@ const nameArr = ["田中", "山田", "あああ"];
 // });
 // console.log(newNumArr);
 
-const newNameArr = nameArr.map((name) => {
-  if (name === "あああ") {
-    return name;
-  } else {
-    return `${name}さん`;
-  }
-});
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "あああ") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
 
-console.log(newNameArr);
+// console.log(newNameArr);
+
+/**
+ * &&と||の使い方
+ */
+
+// const num = null;
+// const fee = num || "未設定";
+// console.log(fee);
+
+// const num2 = 100;
+// const fee2 = num2 && "設定済み";
+// console.log(fee2);
+
+// ||は左側がfalseなら右を返す
+// &&は左側がtrueなら右を返す
